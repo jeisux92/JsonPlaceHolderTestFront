@@ -1,0 +1,17 @@
+.container {
+    margin-top: 15px;
+}
+
+.jumbotron {
+    height: 20rem;
+}
+
+.jumbotron div {
+    width: 50%;
+    float: left;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}

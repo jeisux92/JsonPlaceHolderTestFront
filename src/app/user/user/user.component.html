@@ -1,0 +1,7 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title" [innerText]="user.name"></h5>
+    <p class="card-text" [innerText]="'Username: ' + user.username"></p>
+    <a href="#" class="btn btn-primary" [routerLink]="['/user',user.id]">Ver</a>
+  </div>
+</div>
